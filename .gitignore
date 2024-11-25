@@ -1,0 +1,40 @@
+# Ignore node_modules (React Frontend)
+job-matching-client/node_modules/
+
+# Ignore Python virtual environment (Django Backend)
+job-matching-env/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore Django migrations (optional)
+backend/jobmatch/migrations/
+
+# Ignore environment files
+*.env
+
+# Ignore database files
+*.sqlite3
+
+# Ignore coverage reports (if using coverage tools)
+.coverage
+*.cover
+
+# Ignore log files
+*.log
+
+# Ignore IDE and OS-specific files
+# VSCode
+.vscode/
+# IntelliJ IDEA
+.idea/
+# MacOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# Ignore build output directories for React
+frontend/build/
